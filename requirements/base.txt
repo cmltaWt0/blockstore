@@ -44,10 +44,8 @@ django-cors-headers==2.2.1
     #   -r requirements/base.in
 django-environ==0.7.0
     # via -r requirements/base.in
-django-filter==2.1.0
-    # via
-    #   -c requirements/constraints.txt
-    #   -r requirements/base.in
+django-filter==21.1
+    # via -r requirements/base.in
 django-waffle==2.2.1
     # via -r requirements/base.in
 djangorestframework==3.12.4
@@ -59,7 +57,7 @@ djangorestframework==3.12.4
     #   edx-api-doc-tools
 djangorestframework-expander==0.2.3
     # via -r requirements/base.in
-git+https://github.com/alanjds/drf-nested-routers.git@8686392f91b114e01f3781807dea60e9a80d3e07#egg=drf-nested-routers==0.91
+drf-nested-routers @ git+https://github.com/alanjds/drf-nested-routers.git@8686392f91b114e01f3781807dea60e9a80d3e07
     # via -r requirements/github.in
 drf-yasg==1.20.0
     # via edx-api-doc-tools

@@ -103,10 +103,8 @@ django-dynamic-fixture==3.1.1
     # via -r requirements/test.txt
 django-environ==0.7.0
     # via -r requirements/test.txt
-django-filter==2.1.0
-    # via
-    #   -c requirements/constraints.txt
-    #   -r requirements/test.txt
+django-filter==21.1
+    # via -r requirements/test.txt
 django-waffle==2.2.1
     # via -r requirements/test.txt
 djangorestframework==3.12.4
@@ -122,7 +120,7 @@ docutils==0.17.1
     # via
     #   -r requirements/docs.txt
     #   sphinx
-git+https://github.com/alanjds/drf-nested-routers.git@8686392f91b114e01f3781807dea60e9a80d3e07#egg=drf-nested-routers==0.91
+drf-nested-routers @ git+https://github.com/alanjds/drf-nested-routers.git@8686392f91b114e01f3781807dea60e9a80d3e07
     # via -r requirements/test.txt
 drf-yasg==1.20.0
     # via
